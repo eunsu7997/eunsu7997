@@ -1,10 +1,3 @@
-<p align="center">
-  <a href="https://github.com/eunsu7997/eunsu7997/raw/main/assets/eunsu_showreel_2026_web.mp4">
-    <img src="assets/showreel.gif" alt="EUNSU YU — Showreel 2026" width="100%">
-  </a>
-  <br><sub>▶ 클릭하면 사운드 포함 고화질 영상(15s · 1080p60)</sub>
-</p>
-
 # 안녕하세요, 유은수입니다 👋
 
 **AI 인프라 엔지니어를 준비하고 있습니다.**
@@ -30,6 +23,8 @@ ITS 현장에서 CCTV·VMS 장비 장애를 직접 다뤄 본 경험을 바탕�
 | [**GPUDeploy Guard**](https://github.com/eunsu7997/gpu-deploy-guard) | GPU/LLM 워크로드를 배포하기 전에 실제로 올라갈 수 있는지 미리 검사하는 CLI | 테스트 **509개**, GitHub Actions 통과 |
 | [**AI Incident Copilot**](https://github.com/eunsu7997/incident-copilot) | LLM이 장애 원인 후보를 내고, 코드가 근거를 검증하고, 사람이 최종 판단 | 테스트 **25개**, 실제 LLM 실행 증거 4건 |
 | **KubeLLM-Ops** (정리 중) | 쿠버네티스 위 LLM 서빙을 모니터링하고 장애를 재현해 복구까지 확인 | Pod 삭제 후 **약 9초** 내 복구 |
+
+🎬 [15초 쇼릴 보기](https://github.com/eunsu7997/eunsu7997/raw/main/assets/eunsu_showreel_2026_web.mp4) — 프로젝트 수치 요약 영상
 
 ```mermaid
 flowchart LR
