@@ -1,3 +1,10 @@
+<p align="center">
+  <a href="https://github.com/eunsu7997/eunsu7997/raw/main/assets/eunsu_showreel_2026_web.mp4">
+    <img src="assets/showreel.gif" alt="EUNSU YU — Showreel 2026" width="100%">
+  </a>
+  <br><sub>▶ 클릭하면 사운드 포함 고화질 영상(15s · 1080p60)</sub>
+</p>
+
 # 안녕하세요, 유은수입니다 👋
 
 **AI 인프라 엔지니어를 준비하고 있습니다.**
