@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="170" viewBox="0 0 720 170" role="img" aria-label="KubeLLM-Ops">
+    <rect width="720" height="170" rx="22" fill="#f7ebdf"/>
+    <circle cx="666" cy="25" r="54" fill="#ffffff" opacity=".35"/>
+    <g transform="translate(24 34)"><path d="M29 64C5 60 10 31 32 32C36 7 72 7 80 32C109 27 119 61 96 66H29Z" fill="#fffdf3" stroke="#c5a182" stroke-width="3"/><path d="M46 43L36 52L46 60M74 43L84 52L74 60M65 39L56 65" fill="none" stroke="#c5a182" stroke-width="3"/></g>
+    <g font-family="Segoe UI,Arial,sans-serif" fill="#506253"><text x="170" y="64" font-size="14" letter-spacing="2">03 / KEEP IT RUNNING</text><text x="170" y="105" font-size="31" font-weight="600">KubeLLM-Ops</text></g>
+    <path d="M665 117q-10-22-20-15q-10 11 20 32q30-21 20-32q-10-7-20 15" fill="#c5d4ab"/>
+    </svg>

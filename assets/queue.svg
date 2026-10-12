@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="170" viewBox="0 0 720 170" role="img" aria-label="GPU Queue Lab">
+    <rect width="720" height="170" rx="22" fill="#e5f0f3"/>
+    <circle cx="666" cy="25" r="54" fill="#ffffff" opacity=".35"/>
+    <g transform="translate(24 34)"><g fill="#fffdf3" stroke="#87a8b0" stroke-width="3"><rect x="25" y="15" width="70" height="23" rx="6"/><rect x="25" y="45" width="70" height="23" rx="6"/></g><g fill="#87a8b0"><circle cx="38" cy="27" r="3"/><circle cx="38" cy="57" r="3"/><path d="M48 25H82V29H48ZM48 55H82V59H48Z"/></g><path d="M60 69V85M35 85H85" stroke="#87a8b0" stroke-width="3"/></g>
+    <g font-family="Segoe UI,Arial,sans-serif" fill="#506253"><text x="170" y="64" font-size="14" letter-spacing="2">02 / SHARE COMPUTE</text><text x="170" y="105" font-size="31" font-weight="600">GPU Queue Lab</text></g>
+    <path d="M665 117q-10-22-20-15q-10 11 20 32q30-21 20-32q-10-7-20 15" fill="#c5d4ab"/>
+    </svg>
