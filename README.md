@@ -8,8 +8,9 @@
 
 # 작은 구름에서 시작하는 단단한 AI 인프라 ☁️
 
-**AI 인프라 엔지니어를 준비합니다.**  
-GPU 자원 배분부터 배포 전 검사, LLM 서빙과 장애 분석까지 직접 실험하고 기록합니다.
+**AI 인프라 엔지니어 지망 | ITS 유지보수 실무 3년 3개월 · 통신선로기능사**  
+CCTV·VMS 현장 장애 대응 경험을 바탕으로 GPU 자원 배분, 배포 전 검증, LLM 서빙과 장애 분석을 실험합니다.  
+실제 RTX 4060 측정과 시뮬레이션을 구분하고, 코드·로그·테스트 결과로 확인할 수 있게 기록합니다.
 
 [🌷 Notion 포트폴리오](https://app.notion.com/p/3e746d96621a81eb9138ec1a83f27415) · [🎬 15초 쇼릴](https://github.com/eunsu7997/eunsu7997/raw/main/assets/eunsu_showreel_2026_web.mp4) · [📒 실제 운영 일지](docs/kubellm-ops/2026-10-11-12-ops-log.md)
 
