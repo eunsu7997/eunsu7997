@@ -49,11 +49,11 @@ CCTV·VMS 현장 장애 대응 경험을 바탕으로 GPU 자원 배분, 배포 
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/eunsu7997/eunsu7997/blob/main/docs/kubellm-ops/2026-10-11-12-ops-log.md"><img src="assets/serving.svg" width="100%" alt="KubeLLM-Ops — 서빙 환경을 운영하기" /></a>
+<a href="https://github.com/eunsu7997/kubellm-ops-public"><img src="assets/serving.svg" width="100%" alt="KubeLLM-Ops — 서빙 환경을 운영하기" /></a>
 <h3>☁️ 모델이 돌아가는 환경을 만들어요</h3>
 <p>RTX 4060·Docker·vLLM 서빙과 Prometheus/Grafana 관측, Kubernetes CPU/Mock 복구 실험.</p>
 <p><b>Docker: Gateway → vLLM 응답 · 관측 상태 확인</b><br/>검증 진행 중: readiness False 추적 · Kubernetes GPU Pod 미검증.</p>
-<p><a href="docs/kubellm-ops/2026-10-11-12-ops-log.md">운영 · 실패 · 보안 전환 기록 ↗</a><br/><sub>현재 링크는 운영 일지이며 전용 소스 저장소는 아닙니다.</sub></p>
+<p><a href="docs/kubellm-ops/2026-10-11-12-ops-log.md">운영 · 실패 · 보안 전환 기록 ↗</a><br/><sub><a href="https://github.com/eunsu7997/kubellm-ops-public">전용 소스 · 실제 통합 실험 · CI 공개본 ↗</a><br/>RTX 4060 · 제한429 재시도40/40완료 · 전체SSE E2E P99약1.34초(단일 제한 실험)</sub></p>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/eunsu7997/incident-copilot"><img src="assets/incident.svg" width="100%" alt="AI Incident Copilot — 근거로 장애를 분석하기" /></a>
