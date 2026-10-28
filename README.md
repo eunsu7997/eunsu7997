@@ -8,11 +8,11 @@
 
 # 작은 구름에서 시작하는 단단한 AI 인프라 ☁️
 
-**AI 인프라 엔지니어 지망 | ITS 유지보수 실무 3년 3개월 · 통신선로기능사**  
-CCTV·VMS 현장 장애 대응 경험을 바탕으로 GPU 자원 배분, 배포 전 검증, LLM 서빙과 장애 분석을 실험합니다.  
+**AI 인프라 엔지니어 지망 | ITS 유지보수 실무 3년 3개월 · 통신선로기능사**<br />
+CCTV·VMS 현장 장애 대응 경험을 바탕으로 GPU 자원 배분, 배포 전 검증, LLM 서빙과 장애 분석을 실험합니다.<br />
 실제 RTX 4060 측정과 시뮬레이션을 구분하고, 코드·로그·테스트 결과로 확인할 수 있게 기록합니다.
 
-[🌷 Notion 포트폴리오](https://app.notion.com/p/3e746d96621a81eb9138ec1a83f27415) · [🎬 15초 쇼릴](https://github.com/eunsu7997/eunsu7997/raw/main/assets/eunsu_showreel_2026_web.mp4) · [📒 실제 운영 일지](docs/kubellm-ops/2026-10-11-12-ops-log.md)
+[🌷 Notion 포트폴리오](https://app.notion.com/p/3e746d96621a81eb9138ec1a83f27415) · [🎬 15초 쇼릴](https://github.com/eunsu7997/eunsu7997/raw/main/assets/eunsu_showreel_2026_web.mp4) · [📒 초기 운영 일지](docs/kubellm-ops/2026-10-11-12-ops-log.md) · [전체 공개 프로젝트](docs/PROJECTS.md)
 
 </div>
 
@@ -52,8 +52,8 @@ CCTV·VMS 현장 장애 대응 경험을 바탕으로 GPU 자원 배분, 배포 
 <a href="https://github.com/eunsu7997/kubellm-ops-public"><img src="assets/serving.svg" width="100%" alt="KubeLLM-Ops — 서빙 환경을 운영하기" /></a>
 <h3>☁️ 모델이 돌아가는 환경을 만들어요</h3>
 <p>RTX 4060·Docker·vLLM 서빙과 Prometheus/Grafana 관측, Kubernetes CPU/Mock 복구 실험.</p>
-<p><b>Docker: Gateway → vLLM 응답 · 관측 상태 확인</b><br/>검증 진행 중: readiness False 추적 · Kubernetes GPU Pod 미검증.</p>
-<p><a href="docs/kubellm-ops/2026-10-11-12-ops-log.md">운영 · 실패 · 보안 전환 기록 ↗</a><br/><sub><a href="https://github.com/eunsu7997/kubellm-ops-public">전용 소스 · 실제 통합 실험 · CI 공개본 ↗</a><br/>RTX 4060 · 제한429 재시도40/40완료 · 전체SSE E2E P99약1.34초(단일 제한 실험)</sub></p>
+<p><b>Docker·WSL k3s: 실제 GPU 추론·SSE·장애 복구 검증</b><br/>120분 관측은 strict FAIL로 보존. 동시성 포화 지점·다중 GPU는 미검증.</p>
+<p><a href="https://github.com/eunsu7997/kubellm-ops-public/blob/main/docs/KUBERNETES-LIVE-VALIDATION.md">Kubernetes GPU 실측 · 복구 근거 ↗</a><br/><sub><a href="https://github.com/eunsu7997/kubellm-ops-public">전용 소스 · 실제 통합 실험 · CI 공개본 ↗</a><br/>RTX 4060 · 제한429 재시도40/40완료 · 전체SSE E2E P99약1.34초(단일 제한 실험)</sub></p>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/eunsu7997/incident-copilot"><img src="assets/incident.svg" width="100%" alt="AI Incident Copilot — 근거로 장애를 분석하기" /></a>
@@ -73,7 +73,7 @@ CCTV·VMS 현장 장애 대응 경험을 바탕으로 GPU 자원 배분, 배포 
 
 ## 📖 실험을 대하는 태도
 
-ITS 현장에서 CCTV·VMS 장비 장애를 직접 다뤄 본 경험을 바탕으로,  
+ITS 현장에서 CCTV·VMS 장비 장애를 직접 다뤄 본 경험을 바탕으로,<br />
 **GPU를 놀리지 않고, 배포 전에 실패를 막고, 장애가 나도 근거로 설명할 수 있는 인프라**에 관심이 있습니다.
 
 - **숫자에는 증거를 붙입니다.** 실행 기록과 CI 결과로 확인합니다.
